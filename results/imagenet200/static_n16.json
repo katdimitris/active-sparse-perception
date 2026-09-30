@@ -1,0 +1,16 @@
+{
+ "name": "in200_static_n16",
+ "config": "configs/imagenet200/static_n16.yaml",
+ "tokens": [
+  16
+ ],
+ "memory": "none",
+ "img_size": 192,
+ "n_images": 10000,
+ "gflops": [
+  0.419124096
+ ],
+ "top1": [
+  81.22000098228455
+ ]
+}

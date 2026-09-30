@@ -1,0 +1,5 @@
+BASE: ['_base.yaml']
+MODEL:
+  NAME: in200_static_n16
+SF:
+  TOKENS: [16]

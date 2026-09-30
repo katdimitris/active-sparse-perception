@@ -1,0 +1,16 @@
+{
+ "name": "in100_static_n49",
+ "config": "configs/imagenet100/static_n49.yaml",
+ "tokens": [
+  49
+ ],
+ "memory": "none",
+ "img_size": 160,
+ "n_images": 15000,
+ "gflops": [
+  0.687934464
+ ],
+ "top1": [
+  85.5733335018158
+ ]
+}

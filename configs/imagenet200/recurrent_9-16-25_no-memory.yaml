@@ -1,0 +1,7 @@
+BASE: ['_base.yaml']
+MODEL:
+  NAME: in200_recurrent_9-16-25_no-memory
+SF:
+  TOKENS: [9, 16, 25]
+  MEMORY: none               # rounds share weights but are otherwise independent
+  W_EARLY: 0.1

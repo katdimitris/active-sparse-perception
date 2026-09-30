@@ -1,0 +1,16 @@
+{
+ "name": "in100_static_n25",
+ "config": "configs/imagenet100/static_n25.yaml",
+ "tokens": [
+  25
+ ],
+ "memory": "none",
+ "img_size": 160,
+ "n_images": 15000,
+ "gflops": [
+  0.39293952
+ ],
+ "top1": [
+  83.84666442871094
+ ]
+}

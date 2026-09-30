@@ -1,0 +1,5 @@
+BASE: ['_base.yaml']
+MODEL:
+  NAME: in100_static_n9
+SF:
+  TOKENS: [9]

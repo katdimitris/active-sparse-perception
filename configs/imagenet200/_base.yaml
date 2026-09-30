@@ -1,0 +1,15 @@
+# ImageNet-200 at 192 px (200 ImageNet-1K classes, see data/splits/imagenet200.txt).
+# Evaluation set: the 10,000 official val images.
+DATA:
+  IMG_SIZE: 192
+  BATCH_SIZE: 256            # per GPU; the runs used 2 GPUs (global batch 512)
+SF:
+  WIDTH_CONFIGURATIONS: [192, 384]
+  BLOCK_SIZES: [1, 5]        # focus unit, then 5 cortex blocks
+  REPEATS: [4, 1]
+  HEAD_DIM: 0
+  CORTEX_SAMPLES: True       # the first cortex block also samples the image
+TRAIN:
+  EPOCHS: 200
+  WARMUP_EPOCHS: 10
+  BASE_LR: 2.5e-4            # per 512 images

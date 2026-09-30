@@ -1,0 +1,8 @@
+BASE: ['_base.yaml']
+MODEL:
+  NAME: in200_recurrent_9-16-25_memory
+SF:
+  TOKENS: [9, 16, 25]
+  MEMORY: cortex_ca
+  MEMORY_STAGE: 1            # memory read after the first (sampling) cortex block
+  W_EARLY: 0.1
